@@ -7,13 +7,9 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
-            var sb = new StringBuilder();
-            foreach (var word in GetWords())
-            {
-                sb.Append(word);
-            }
-            var text = sb.ToString();
-            Console.WriteLine(text);
+            var chars = new char[] { 'P', 'r', 'o' };
+            var str = new string(chars);
+            Console.WriteLine(str);
         }
     }
 }

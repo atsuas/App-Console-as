@@ -1,0 +1,12 @@
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/bin/Debug/netcoreapp3.1/App-Console-as.deps.json
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/bin/Debug/netcoreapp3.1/App-Console-as.runtimeconfig.json
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/bin/Debug/netcoreapp3.1/App-Console-as.runtimeconfig.dev.json
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/bin/Debug/netcoreapp3.1/App-Console-as.dll
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/bin/Debug/netcoreapp3.1/App-Console-as.pdb
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.csprojAssemblyReference.cache
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.AssemblyInfoInputs.cache
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.AssemblyInfo.cs
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.csproj.CoreCompileInputs.cache
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.dll
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.pdb
+/Users/as/Desktop/C#フォルダ/App-Console/App-Console-as/obj/Debug/netcoreapp3.1/App-Console-as.genruntimeconfig.cache
