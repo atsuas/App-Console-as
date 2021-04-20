@@ -6,7 +6,9 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var text = "The quick";
+            var words = text.Split(new[] { ' ', '.' },
+                            StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }
