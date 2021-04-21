@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Linq;
 
 namespace App_Console_as
 {
@@ -7,9 +8,14 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
-            var chars = new char[] { 'P', 'r', 'o' };
-            var str = new string(chars);
-            Console.WriteLine(str);
+            var query = Library.Books
+                               .Select(b => b.PublishedYear)
+                               .Distinct()
+                               .OrderBy(y => y);
+            foreach (var n in query)
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }
