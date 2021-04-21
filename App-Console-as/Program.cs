@@ -8,14 +8,10 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
-            var query = Library.Books
-                               .Select(b => b.PublishedYear)
-                               .Distinct()
-                               .OrderBy(y => y);
-            foreach (var n in query)
-            {
-                Console.WriteLine(n);
-            }
+            var books = Library.Books
+                               .OrderBy(b => b.CategoryId)
+                               .ThenBtDescendung(b => b.PublishedYear);
+
         }
     }
 }
