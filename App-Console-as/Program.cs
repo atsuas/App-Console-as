@@ -8,9 +8,9 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
-            var years = new int[] { 2013, 2016 };
-            var books = Library.Books
-                               .Where(b => years.Contains(b.PublishedYear));
+            var groups = Library.Books
+                                .GroupBy(b => b.PublishedYear)
+                                .OrderBy(g => g.Key);
         }
     }
 }
