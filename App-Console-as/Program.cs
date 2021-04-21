@@ -8,10 +8,9 @@ namespace App_Console_as
     {
         static void Main(string[] args)
         {
+            var years = new int[] { 2013, 2016 };
             var books = Library.Books
-                               .OrderBy(b => b.CategoryId)
-                               .ThenBtDescendung(b => b.PublishedYear);
-
+                               .Where(b => years.Contains(b.PublishedYear));
         }
     }
 }
